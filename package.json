@@ -1,0 +1,19 @@
+{
+  "name": "CypressMultipleCalls",
+  "version": "1.0.0",
+  "description": "Cypress POC",
+  "author": "varunpradhan",
+  "license": "ISC",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "6.8.0",
+    "cypress-cucumber-preprocessor": "^2.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "commonPath": "common",
+    "step_definitions": "cypress/step_definitions"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "baseUrl": "http://eaapp.somee.com/",
+    "testFiles": [
+        "**/*.{feature,features}",
+        "**/*.js"
+    ]
+}
